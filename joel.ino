@@ -13,7 +13,7 @@ const int phSensorPin = A0;
  
 String apiKey = "P4L2IJAOT3QT8EBI"; // Enter your Write API key from ThingSpeak
 const char *ssid = "Arun";     // replace with your wifi ssid and wpa2 key
-const char *pass = "7892917641";
+const char *pass = "";
 const char* server = "api.thingspeak.com";
  
 WiFiClient client;
