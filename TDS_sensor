@@ -1,0 +1,72 @@
+
+#include <ESP8266WiFi.h>
+#include <OneWire.h>
+#include <DallasTemperature.h>
+#include <DFRobot_ESP_EC.h>
+#include <DFRobot_ESP_PH_WITH_ADC.h>
+#include <SimpleTimer.h>
+#include <BlynkSimpleEsp8266.h>
+
+const char* ssid = "iPhone ARJ"; // Your WiFi SSID
+const char* password = "12345678"; // Your WiFi password
+const char* server = "api.thingspeak.com"; // ThingSpeak server address
+const String apiKey = "4U4053336HFFVNTW"; // Your ThingSpeak API key
+
+#define ONE_WIRE_BUS D2 // Define the GPIO pin for DS18B20 data wire
+#define PH_SENSOR_PIN A0 // Define the analog pin for pH sensor
+#define TDS_SENSOR_PIN A0 // Define the analog pin for TDS sensor
+
+OneWire oneWire(ONE_WIRE_BUS);
+DallasTemperature sensors(&oneWire);
+DFRobot_ESP_EC ec;
+DFRobot_ESP_PH_WITH_ADC ph;
+SimpleTimer timer;
+
+float readTemperature() {
+  sensors.requestTemperatures();
+  return sensors.getTempCByIndex(0);
+}
+
+void setup() {
+  Serial.begin(115200);
+  Blynk.begin(auth, ssid, pass);
+
+  ph.begin();
+  ec.begin();
+  sensors.begin();
+
+  timer.setInterval(1000L, MainFunction);
+}
+
+void loop() {
+  Blynk.run();
+  timer.run();
+}
+
+void MainFunction() {
+  float voltage, temperature, ecValue;
+
+  // Read TDS sensor voltage
+  voltage = analogRead(TDS_SENSOR_PIN);
+
+  // Read temperature
+  temperature = readTemperature();
+
+  // Print temperature to Serial
+  Serial.print("Temperature: ");
+  Serial.println(temperature);
+
+  // Calculate EC value with temperature compensation
+  ecValue = ec.readEC(voltage, temperature);
+
+  // Print EC value to Serial
+  Serial.print("EC Value: ");
+  Serial.println(ecValue);
+
+  // Send temperature and EC values to Blynk
+  Blynk.virtualWrite(V2, temperature);
+  Blynk.virtualWrite(V3, ecValue);
+
+  // Perform EC calibration (if needed)
+  ec.calibration(voltage, temperature);
+}
