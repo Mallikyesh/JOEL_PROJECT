@@ -1,0 +1,100 @@
+Nitrogen,Phosphorous,Potassium,Temparature,Moisture,Crop Type,Fertilizer Name
+37,0,0,26,38,Maize,Urea
+12,36,0,29,45,Sugarcane,DAP
+7,30,9,34,62,Cotton,14-35-14
+22,20,0,32,34,Tobacco,28-28
+35,0,0,28,46,Paddy,Urea
+12,13,10,26,35,Barley,17-17-17
+9,10,0,25,64,Cotton,20-20
+41,0,0,33,50,Wheat,Urea
+21,18,0,30,42,Millets,28-28
+9,30,7,29,33,Oil seeds,14-35-14
+13,40,0,27,28,Pulses,DAP
+14,12,15,31,48,Maize,17-17-17
+36,0,0,25,65,Cotton,Urea
+24,22,0,32,41,Paddy,28-28
+14,41,0,26,31,Ground Nuts,DAP
+10,14,13,31,49,Sugarcane,17-17-17
+38,0,0,33,34,Pulses,Urea
+21,19,0,25,39,Barley,28-28
+39,0,0,28,65,Cotton,Urea
+13,36,0,29,52,Wheat,DAP
+10,9,0,30,44,Millets,20-20
+12,12,14,34,53,Sugarcane,17-17-17
+11,37,0,35,33,Tobacco,DAP
+36,0,0,28,37,Millets,Urea
+13,10,0,33,39,Paddy,20-20
+23,20,0,26,44,Maize,28-28
+9,29,9,30,63,Cotton,14-35-14
+38,0,0,32,30,Sugarcane,Urea
+12,39,0,37,32,Oil seeds,DAP
+14,13,0,26,36,Pulses,20-20
+24,23,0,29,40,Ground Nuts,28-28
+12,40,0,30,27,Sugarcane,DAP
+39,0,0,34,38,Paddy,Urea
+7,30,9,36,38,Barley,14-35-14
+23,19,0,26,48,Wheat,28-28
+41,0,0,28,35,Millets,Urea
+8,31,10,30,61,Cotton,14-35-14
+12,41,0,37,37,Paddy,DAP
+15,11,14,25,26,Ground Nuts,17-17-17
+15,37,0,29,34,Millets,DAP
+13,13,0,27,30,Pulses,20-20
+10,32,7,30,58,Sugarcane,14-35-14
+22,24,0,32,34,Tobacco,28-28
+35,0,0,34,60,Sugarcane,Urea
+10,35,0,35,42,Barley,DAP
+8,28,8,38,48,Wheat,14-35-14
+12,8,0,26,32,Oil seeds,20-20
+24,18,0,29,43,Paddy,28-28
+41,0,0,30,29,Ground Nuts,Urea
+5,29,9,33,51,Maize,14-35-14
+23,21,0,34,31,Tobacco,28-28
+13,14,0,36,33,Oil seeds,20-20
+40,0,0,28,38,Pulses,Urea
+12,42,0,30,47,Barley,DAP
+11,15,12,31,63,Cotton,17-17-17
+23,24,0,27,43,Millets,28-28
+38,0,0,34,54,Wheat,Urea
+8,15,0,29,37,Millets,20-20
+11,15,13,25,56,Sugarcane,17-17-17
+15,37,0,32,34,Ground Nuts,DAP
+36,0,0,28,41,Paddy,Urea
+13,9,0,30,49,Wheat,20-20
+24,20,0,34,64,Cotton,28-28
+5,15,18,28,47,Barley,10-26-26
+37,0,0,27,35,Oil seeds,Urea
+15,40,0,36,62,Cotton,DAP
+9,13,0,34,57,Sugarcane,20-20
+8,33,8,29,55,Sugarcane,14-35-14
+6,16,19,25,40,Pulses,10-26-26
+10,14,0,30,38,Millets,20-20
+21,23,0,26,39,Pulses,28-28
+39,0,0,31,32,Tobacco,Urea
+23,19,0,34,48,Wheat,28-28
+42,0,0,27,34,Oil seeds,Urea
+13,39,0,33,31,Ground Nuts,DAP
+9,22,10,29,42,Paddy,14-35-14
+22,21,0,30,47,Maize,28-28
+10,15,0,27,59,Sugarcane,20-20
+7,20,16,26,36,Pulses,10-26-26
+14,38,0,34,63,Cotton,DAP
+10,29,8,28,43,Paddy,14-35-14
+41,0,0,30,40,Millets,Urea
+14,35,0,29,65,Cotton,DAP
+11,9,0,26,59,Sugarcane,20-20
+21,28,0,31,44,Barley,28-28
+8,31,7,35,28,Pulses,14-35-14
+13,16,17,29,30,Tobacco,10-26-26
+35,0,0,27,30,Millets,Urea
+12,19,18,36,50,Wheat,10-26-26
+11,38,0,29,61,Cotton,DAP
+8,30,9,30,26,Oil seeds,14-35-14
+6,21,19,34,45,Paddy,10-26-26
+41,0,0,36,41,Ground Nuts,Urea
+9,30,10,28,25,Maize,14-35-14
+24,19,0,25,32,Pulses,28-28
+4,17,17,30,27,Tobacco,10-26-26
+39,0,0,38,51,Wheat,Urea
+15,41,0,36,43,Millets,DAP
+12,10,0,29,57,Sugarcane,20-20
